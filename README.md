@@ -33,28 +33,6 @@ crypto-recommendation-system/
 └── README.md              # Project documentation
 ```
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- C++ Compiler (GCC 7.0+ or MSVC)
-- Modern web browser (Chrome, Firefox, Edge)
-- Basic knowledge of data structures
-## 💻 Usage
-
-### C++ Console Menu
-
-```
-1. Search Cryptocurrency (Trie)
-2. Filter by Category (Hash Map)
-3. Sort Cryptocurrencies
-4. Display Statistics
-5. Show All Categories
-6. Array Operations Demo
-7. Hash Map Operations Demo
-8. Exit
-```
-
 ### Web Interface
 
 1. **Search**: Type cryptocurrency name, symbol, or category
