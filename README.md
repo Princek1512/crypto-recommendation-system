@@ -25,12 +25,10 @@ A high-performance cryptocurrency recommendation system that leverages **Trie da
 
 ```
 crypto-recommendation-system/
-├── crypto_system.cpp       # C++ backend with data structures
-├── crypto_system.exe       # Compiled executable
-├── index.html             # Web interface with C++ bridge simulation
-├── script.js              # Frontend logic and API handling
-├── crypto_data.json       # Cryptocurrency data storage
-└── README.md              # Project documentation
+├── index.html              # Frontend HTML interface
+├── server.cpp              # C++ backend server logic
+├── server.exe              # Compiled C++ executable
+├── style.css               # Frontend styling
 ```
 
 ### Web Interface
