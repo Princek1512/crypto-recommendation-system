@@ -43,7 +43,7 @@ class Trie
         if (!node) return;
         if (res.size() >= (size_t)max)
             return;
-        // add assets in this node
+        // assets in this node 
         for (auto *a : node->assets)
         {
             if (res.size() >= (size_t)max) break;
@@ -513,3 +513,4 @@ int main()
     server.start();
     return 0;
 }
+
