@@ -43,7 +43,7 @@ class Trie
         if (!node) return;
         if (res.size() >= (size_t)max)
             return;
-        // assets in this node 
+        // assets in node
         for (auto *a : node->assets)
         {
             if (res.size() >= (size_t)max) break;
@@ -246,7 +246,6 @@ public:
             }
         }
 
-        // dedupe by symbol
         std::vector<Asset *> unique;
         std::unordered_map<std::string, bool> seen;
         for (auto *a : results)
@@ -453,7 +452,7 @@ public:
 
         if (bind(serverSocket, (sockaddr *)&serverAddr, sizeof(serverAddr)) < 0)
         {
-            std::cerr << "Error binding socket\n";
+            std::cerr << "Error in binding socket\n";
             closesocket(serverSocket);
             return;
         }
@@ -505,7 +504,6 @@ public:
 
 int main()
 {
-    
     InvestmentSystem system;
     SimpleHTTPServer server(system, 8080);
     std::cout << "=== Investment Recommendation System ===\n";
